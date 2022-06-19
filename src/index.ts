@@ -1,4 +1,4 @@
-import { client } from "./bot";
+import { client } from "./bot.js";
 import { createRestApi } from "./rest-api";
 
 const PORT = process.env.PORT || 8000;
